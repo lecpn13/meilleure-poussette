@@ -1,0 +1,470 @@
+[
+  {
+    "id": "stokke-yoyo3",
+    "nom": "Stokke YOYO3",
+    "categorie": "compacte",
+    "prix": 450,
+    "poids": 6.2,
+    "note": 4.5,
+    "age_minimum": "6 mois",
+    "poids_max_enfant": "22 kg",
+    "cabine_avion": true,
+    "avantages": [
+      "Acceptée en cabine d'avion (dimensions IATA)",
+      "Pliage ultra-compact en quelques secondes",
+      "Design élégant et qualité de fabrication Stokke",
+      "Large gamme d'accessoires disponibles"
+    ],
+    "inconvenients": [
+      "Prix élevé pour une poussette compacte",
+      "Panier de rangement sous le siège limité",
+      "Nacelle vendue séparément"
+    ],
+    "pour_qui": "Parents voyageurs qui prennent souvent l'avion",
+    "lien_amazon": "https://www.amazon.fr/s?k=Stokke+YOYO3+poussette",
+    "image": "",
+    "badge": "Meilleure vente"
+  },
+  {
+    "id": "joolz-aer2",
+    "nom": "Joolz Aer2",
+    "categorie": "compacte",
+    "prix": 479,
+    "poids": 6.5,
+    "note": 4.6,
+    "age_minimum": "6 mois",
+    "poids_max_enfant": "22 kg",
+    "cabine_avion": true,
+    "avantages": [
+      "Acceptée en cabine d'avion",
+      "Matériaux recyclés et éco-responsables",
+      "Design minimaliste et moderne",
+      "Siège confortable avec bon maintien"
+    ],
+    "inconvenients": [
+      "Prix élevé pour la catégorie",
+      "Pas de position couchée complète",
+      "Panier de rangement étroit"
+    ],
+    "pour_qui": "Parents éco-conscients et voyageurs fréquents",
+    "lien_amazon": "https://www.amazon.fr/s?k=Joolz+Aer2+poussette",
+    "image": "",
+    "badge": "Premium"
+  },
+  {
+    "id": "cybex-coya",
+    "nom": "Cybex Coya",
+    "categorie": "compacte",
+    "prix": 500,
+    "poids": 6,
+    "note": 4.4,
+    "age_minimum": "6 mois",
+    "poids_max_enfant": "22 kg",
+    "cabine_avion": true,
+    "avantages": [
+      "Siège réversible face aux parents ou à la route",
+      "Acceptée en cabine d'avion",
+      "Compatible siège auto Cybex sans adaptateur",
+      "Finitions haut de gamme"
+    ],
+    "inconvenients": [
+      "Prix élevé",
+      "Sans suspension",
+      "Retournement du siège peu intuitif"
+    ],
+    "pour_qui": "Parents urbains cherchant polyvalence et style",
+    "lien_amazon": "https://www.amazon.fr/s?k=Cybex+Coya+poussette",
+    "image": "",
+    "badge": "Premium"
+  },
+  {
+    "id": "bugaboo-butterfly-2",
+    "nom": "Bugaboo Butterfly 2",
+    "categorie": "compacte",
+    "prix": 479,
+    "poids": 7.3,
+    "note": 4.3,
+    "age_minimum": "6 mois",
+    "poids_max_enfant": "22 kg",
+    "cabine_avion": false,
+    "avantages": [
+      "Siège réversible facilement orientable",
+      "Qualité de construction Bugaboo",
+      "Grand panier de rangement pour la catégorie",
+      "Pliage rapide en position debout"
+    ],
+    "inconvenients": [
+      "Plus lourde que ses concurrentes compactes",
+      "Non acceptée en cabine d'avion",
+      "Prix élevé sans nacelle incluse"
+    ],
+    "pour_qui": "Fans de Bugaboo cherchant une poussette légère au quotidien",
+    "lien_amazon": "https://www.amazon.fr/s?k=Bugaboo+Butterfly+2+poussette",
+    "image": "",
+    "badge": "Premium"
+  },
+  {
+    "id": "joie-parcel",
+    "nom": "Joie Parcel",
+    "categorie": "compacte",
+    "prix": 350,
+    "poids": 6,
+    "note": 4.2,
+    "age_minimum": "6 mois",
+    "poids_max_enfant": "22 kg",
+    "cabine_avion": false,
+    "avantages": [
+      "Prix très accessible pour la catégorie compacte",
+      "Légère et facile à transporter",
+      "Capote solaire UPF 50+",
+      "Pliage compact autonome"
+    ],
+    "inconvenients": [
+      "Finitions moins luxueuses que la concurrence",
+      "Panier de rangement très petit",
+      "Suspension absente"
+    ],
+    "pour_qui": "Parents cherchant une compacte abordable pour la ville",
+    "lien_amazon": "https://www.amazon.fr/s?k=Joie+Parcel+poussette",
+    "image": "",
+    "badge": "Rapport qualité/prix"
+  },
+  {
+    "id": "chicco-we",
+    "nom": "Chicco We",
+    "categorie": "compacte",
+    "prix": 200,
+    "poids": 7,
+    "note": 4.0,
+    "age_minimum": "6 mois",
+    "poids_max_enfant": "15 kg",
+    "cabine_avion": false,
+    "avantages": [
+      "Prix très accessible",
+      "Marque fiable et reconnue",
+      "Pliage simple et rapide",
+      "Dossier multi-positions"
+    ],
+    "inconvenients": [
+      "Poids max enfant limité à 15 kg",
+      "Finitions basiques",
+      "Moins confortable sur terrain irrégulier"
+    ],
+    "pour_qui": "Budget limité pour un usage urbain ponctuel",
+    "lien_amazon": "https://www.amazon.fr/s?k=Chicco+We+poussette",
+    "image": "",
+    "badge": "Budget"
+  },
+  {
+    "id": "cybex-libelle",
+    "nom": "Cybex Libelle",
+    "categorie": "canne",
+    "prix": 300,
+    "poids": 6,
+    "note": 4.5,
+    "age_minimum": "0 mois",
+    "poids_max_enfant": "22 kg",
+    "cabine_avion": true,
+    "avantages": [
+      "Utilisable dès la naissance avec carrycot",
+      "Pliage extrêmement compact accepté en cabine",
+      "Compatible siège auto Cybex",
+      "Qualité de fabrication haut de gamme"
+    ],
+    "inconvenients": [
+      "Prix élevé pour une canne",
+      "Nacelle vendue séparément",
+      "Petites roues peu adaptées aux terrains difficiles"
+    ],
+    "pour_qui": "Parents cherchant une canne polyvalente dès la naissance",
+    "lien_amazon": "https://www.amazon.fr/s?k=Cybex+Libelle+poussette",
+    "image": "",
+    "badge": "Premium"
+  },
+  {
+    "id": "maclaren-quest",
+    "nom": "Maclaren Quest",
+    "categorie": "canne",
+    "prix": 250,
+    "poids": 5.9,
+    "note": 4.3,
+    "age_minimum": "6 mois",
+    "poids_max_enfant": "25 kg",
+    "cabine_avion": false,
+    "avantages": [
+      "Grande capacité de poids (25 kg)",
+      "Robustesse et longévité éprouvées",
+      "Pliage parapluie classique ultra-rapide",
+      "Large choix d'accessoires Maclaren"
+    ],
+    "inconvenients": [
+      "Design peu moderne comparé à la concurrence",
+      "Rembourrage du siège limité",
+      "Guidon non réglable en hauteur"
+    ],
+    "pour_qui": "Parents cherchant durabilité et grande capacité enfant",
+    "lien_amazon": "https://www.amazon.fr/s?k=Maclaren+Quest+poussette",
+    "image": "",
+    "badge": "Rapport qualité/prix"
+  },
+  {
+    "id": "joie-nitro",
+    "nom": "Joie Nitro",
+    "categorie": "canne",
+    "prix": 100,
+    "poids": 5.9,
+    "note": 4.1,
+    "age_minimum": "6 mois",
+    "poids_max_enfant": "22 kg",
+    "cabine_avion": false,
+    "avantages": [
+      "Prix très abordable",
+      "Légère et facile à transporter",
+      "Capote solaire UPF 50+",
+      "Pliage compact automatique"
+    ],
+    "inconvenients": [
+      "Finitions basiques",
+      "Suspension minimale",
+      "Siège non réversible"
+    ],
+    "pour_qui": "Premier budget pour les déplacements quotidiens simples",
+    "lien_amazon": "https://www.amazon.fr/s?k=Joie+Nitro+poussette",
+    "image": "",
+    "badge": "Rapport qualité/prix"
+  },
+  {
+    "id": "chicco-echo",
+    "nom": "Chicco Echo",
+    "categorie": "canne",
+    "prix": 80,
+    "poids": 5.5,
+    "note": 4.0,
+    "age_minimum": "6 mois",
+    "poids_max_enfant": "15 kg",
+    "cabine_avion": false,
+    "avantages": [
+      "Prix ultra-accessible",
+      "La plus légère de la sélection (5,5 kg)",
+      "Marque fiable et reconnue",
+      "Pliage simple d'une main"
+    ],
+    "inconvenients": [
+      "Poids max enfant limité à 15 kg",
+      "Confort minimal",
+      "Finitions très basiques"
+    ],
+    "pour_qui": "Budget très serré, usage ponctuel et déplacements légers",
+    "lien_amazon": "https://www.amazon.fr/s?k=Chicco+Echo+poussette",
+    "image": "",
+    "badge": "Budget"
+  },
+  {
+    "id": "hauck-rapid-4",
+    "nom": "Hauck Rapid 4",
+    "categorie": "canne",
+    "prix": 80,
+    "poids": 6,
+    "note": 3.9,
+    "age_minimum": "6 mois",
+    "poids_max_enfant": "25 kg",
+    "cabine_avion": false,
+    "avantages": [
+      "Prix minimal pour une grande capacité (25 kg)",
+      "Dossier inclinable en plusieurs positions",
+      "Pliage compact",
+      "Repose-pieds réglable"
+    ],
+    "inconvenients": [
+      "Qualité des finitions limitée",
+      "Maniabilité perfectible",
+      "Guidon non réglable en hauteur"
+    ],
+    "pour_qui": "Budget minimal, enfant grand pour usage occasionnel",
+    "lien_amazon": "https://www.amazon.fr/s?k=Hauck+Rapid+4+poussette",
+    "image": "",
+    "badge": "Budget"
+  },
+  {
+    "id": "kinderkraft-grande-plus",
+    "nom": "Kinderkraft Grande Plus",
+    "categorie": "canne",
+    "prix": 120,
+    "poids": 7,
+    "note": 4.0,
+    "age_minimum": "0 mois",
+    "poids_max_enfant": "22 kg",
+    "cabine_avion": false,
+    "avantages": [
+      "Utilisable dès la naissance",
+      "Prix abordable pour une canne dès 0 mois",
+      "Siège inclinable à plat",
+      "Grand panier de rangement"
+    ],
+    "inconvenients": [
+      "Plus lourde que ses concurrentes cannes",
+      "Marque moins connue, SAV variable",
+      "Finitions inégales"
+    ],
+    "pour_qui": "Budget limité avec un nouveau-né à transporter en canne",
+    "lien_amazon": "https://www.amazon.fr/s?k=Kinderkraft+Grande+Plus+poussette",
+    "image": "",
+    "badge": "Rapport qualité/prix"
+  },
+  {
+    "id": "joie-evalite-duo",
+    "nom": "Joie Evalite Duo",
+    "categorie": "double",
+    "prix": 300,
+    "poids": 11,
+    "note": 4.4,
+    "age_minimum": "0 mois",
+    "poids_max_enfant": "2 × 13 kg",
+    "cabine_avion": false,
+    "avantages": [
+      "La plus légère des doubles (11 kg)",
+      "Prix très accessible pour une double",
+      "Utilisable dès la naissance pour les deux sièges",
+      "Bonne maniabilité pour une poussette tandem"
+    ],
+    "inconvenients": [
+      "Largeur importante, difficile dans certains espaces",
+      "Panier de rangement réduit",
+      "Poids max enfant limité à 13 kg chacun"
+    ],
+    "pour_qui": "Jumeaux ou deux enfants rapprochés, budget maîtrisé",
+    "lien_amazon": "https://www.amazon.fr/s?k=Joie+Evalite+Duo+poussette",
+    "image": "",
+    "badge": "Rapport qualité/prix"
+  },
+  {
+    "id": "cybex-gazelle-s",
+    "nom": "Cybex Gazelle S",
+    "categorie": "double",
+    "prix": 800,
+    "poids": 15,
+    "note": 4.5,
+    "age_minimum": "0 mois",
+    "poids_max_enfant": "2 × 22 kg",
+    "cabine_avion": false,
+    "avantages": [
+      "Modulable de 1 à 2 enfants (nombreuses configurations)",
+      "Grande capacité : 2 × 22 kg",
+      "Siège réversible sur chaque position",
+      "Qualité de fabrication haut de gamme"
+    ],
+    "inconvenients": [
+      "Prix très élevé",
+      "Lourd et encombrant (15 kg)",
+      "Accessoires de configuration vendus séparément"
+    ],
+    "pour_qui": "Parents voulant le meilleur pour deux enfants sans compromis",
+    "lien_amazon": "https://www.amazon.fr/s?k=Cybex+Gazelle+S+poussette",
+    "image": "",
+    "badge": "Premium"
+  },
+  {
+    "id": "joie-aire-twin",
+    "nom": "Joie Aire Twin",
+    "categorie": "double",
+    "prix": 250,
+    "poids": 13,
+    "note": 4.0,
+    "age_minimum": "6 mois",
+    "poids_max_enfant": "2 × 15 kg",
+    "cabine_avion": false,
+    "avantages": [
+      "Prix très accessible pour une double côte à côte",
+      "Tissus respirants pour le confort des enfants",
+      "Pliage facile malgré la double largeur",
+      "Bonne stabilité"
+    ],
+    "inconvenients": [
+      "Largeur côte à côte limitante (portes, magasins)",
+      "Sans suspension",
+      "Finitions basiques"
+    ],
+    "pour_qui": "Jumeaux dès 6 mois, budget serré",
+    "lien_amazon": "https://www.amazon.fr/s?k=Joie+Aire+Twin+poussette",
+    "image": "",
+    "badge": "Budget"
+  },
+  {
+    "id": "bugaboo-fox-5",
+    "nom": "Bugaboo Fox 5",
+    "categorie": "tout-terrain",
+    "prix": 1200,
+    "poids": 12,
+    "note": 4.7,
+    "age_minimum": "0 mois",
+    "poids_max_enfant": "22 kg",
+    "cabine_avion": false,
+    "avantages": [
+      "Suspension adaptative pour un confort maximal",
+      "Siège réversible orientable facilement",
+      "Compatible tout terrain : ville, forêt, plage",
+      "Grand panier de rangement (30 L)"
+    ],
+    "inconvenients": [
+      "Prix très élevé",
+      "Lourd pour du quotidien urbain (12 kg)",
+      "Nacelle et accessoires vendus séparément"
+    ],
+    "pour_qui": "Parents actifs recherchant la meilleure qualité sans compromis",
+    "lien_amazon": "https://www.amazon.fr/s?k=Bugaboo+Fox+5+poussette",
+    "image": "",
+    "badge": "Premium"
+  },
+  {
+    "id": "thule-urban-glide-2",
+    "nom": "Thule Urban Glide 2",
+    "categorie": "tout-terrain",
+    "prix": 600,
+    "poids": 10.4,
+    "note": 4.5,
+    "age_minimum": "0 mois",
+    "poids_max_enfant": "22 kg",
+    "cabine_avion": false,
+    "avantages": [
+      "Excellent comportement tout-terrain et jogging",
+      "Légère pour la catégorie (10,4 kg)",
+      "Roues gonflables hautes performances",
+      "Frein à main pour descentes et sport"
+    ],
+    "inconvenients": [
+      "Prix élevé",
+      "Largeur importante en milieu urbain étroit",
+      "Moins agile en intérieur"
+    ],
+    "pour_qui": "Parents sportifs pratiquant le jogging ou les chemins naturels",
+    "lien_amazon": "https://www.amazon.fr/s?k=Thule+Urban+Glide+2+poussette",
+    "image": "",
+    "badge": "Meilleure vente"
+  },
+  {
+    "id": "baby-jogger-city-mini-gt2",
+    "nom": "Baby Jogger City Mini GT2",
+    "categorie": "tout-terrain",
+    "prix": 450,
+    "poids": 9.8,
+    "note": 4.4,
+    "age_minimum": "0 mois",
+    "poids_max_enfant": "22 kg",
+    "cabine_avion": false,
+    "avantages": [
+      "Pliage à une main ultra-rapide",
+      "Siège inclinable à plat dès la naissance",
+      "Très grande capote solaire",
+      "Polyvalent ville et sentiers"
+    ],
+    "inconvenients": [
+      "Siège non réversible",
+      "Moins compact que ses concurrents urbains",
+      "Prix moyen-élevé"
+    ],
+    "pour_qui": "Parents actifs cherchant polyvalence ville et tout-terrain",
+    "lien_amazon": "https://www.amazon.fr/s?k=Baby+Jogger+City+Mini+GT2+poussette",
+    "image": "",
+    "badge": "Rapport qualité/prix"
+  }
+]
