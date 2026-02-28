@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import poussettesData from "@/data/poussettes.json";
 import type { PoussetteSimple } from "@/lib/types";
+import Script from "next/script";
 
 // ─── Métadonnées ────────────────────────────────────────────────────────────
 
@@ -252,6 +253,21 @@ export default function HomePage() {
           </p>
         </div>
       </section>
+
+      {/* Schema JSON-LD */}
+      <Script id="schema-website" type="application/ld+json" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "MeilleurePoussette.fr",
+        "url": "https://meilleure-poussette.fr",
+        "description": "Comparatif indépendant des meilleures poussettes 2026 — avis, tests et prix Amazon France",
+        "inLanguage": "fr-FR",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://meilleure-poussette.fr/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }) }} />
 
     </div>
   );

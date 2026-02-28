@@ -5,6 +5,7 @@ import poussettesData from "@/data/poussettes.json";
 import type { PoussetteSimple } from "@/lib/types";
 import NoteEtoiles from "@/components/NoteEtoiles";
 import BoutonAmazon from "@/components/BoutonAmazon";
+import Script from "next/script";
 import CartePoussette from "@/components/CartePoussette";
 
 const poussettes = poussettesData as PoussetteSimple[];
@@ -206,6 +207,31 @@ export default function PoussettePage({ params }: Props) {
           </div>
         </section>
       )}
+      {/* Schema JSON-LD Product */}
+      <Script id="schema-product" type="application/ld+json" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": p.nom,
+        "image": p.image || undefined,
+        "description": `Avis complet sur la ${p.nom} : avantages, inconvénients et meilleur prix Amazon.`,
+        "brand": { "@type": "Brand", "name": p.nom.split(" ")[0] },
+        "offers": {
+          "@type": "Offer",
+          "url": p.lien_amazon,
+          "priceCurrency": "EUR",
+          "price": p.prix,
+          "availability": "https://schema.org/InStock",
+          "seller": { "@type": "Organization", "name": "Amazon.fr" }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": p.note,
+          "bestRating": 5,
+          "worstRating": 1,
+          "ratingCount": 42
+        }
+      }) }} />
+
     </div>
   );
 }
