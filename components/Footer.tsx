@@ -11,7 +11,9 @@ const guides = [
   { href: "/guides",                                          label: "Tous nos guides"             },
   { href: "/guides/comment-choisir-sa-poussette",            label: "Comment choisir sa poussette" },
   { href: "/guides/poussette-legere-guide",                  label: "Poussette légère : le guide"  },
-  { href: "/guides/poussette-cabine-avion",                  label: "Poussette cabine avion"       },
+  { href: "/guides/poussette-cabine-avion", label: "Poussette cabine avion" },
+  { href: "/blog",                                             label: "Blog"                        },
+  { href: "/faq",                                              label: "FAQ"                         },
 ];
 
 const legals = [

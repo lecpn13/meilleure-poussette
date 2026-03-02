@@ -1,10 +1,12 @@
 import Link from "next/link";
 
 const navLinks = [
-  { href: "/meilleure-poussette-compacte",    label: "Compactes"    },
-  { href: "/meilleure-poussette-canne",       label: "Cannes"       },
-  { href: "/meilleure-poussette-double",      label: "Doubles"      },
+  { href: "/meilleure-poussette-compacte",     label: "Compactes"    },
+  { href: "/meilleure-poussette-canne",        label: "Cannes"       },
+  { href: "/meilleure-poussette-double",       label: "Doubles"      },
   { href: "/meilleure-poussette-tout-terrain", label: "Tout-terrain" },
+  { href: "/blog",                             label: "Blog"         },
+  { href: "/faq",                              label: "FAQ"          },
 ];
 
 export default function Header() {

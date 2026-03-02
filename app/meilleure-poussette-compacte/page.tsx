@@ -301,29 +301,43 @@ export default function MeilleurePoussettCompactePage() {
                 <div className="h-1.5 bg-gradient-to-r from-[#1e3a5f] to-[#2d5a9e]" />
 
                 <div className="p-6 lg:p-8">
-                  {/* Titre + note + prix */}
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-6">
-                    <div>
-                      {p.badge && (
-                        <span className="inline-block text-xs font-bold bg-[#1e3a5f] text-white px-2.5 py-1 rounded-full mb-2">
-                          {p.badge}
-                        </span>
-                      )}
-                      <h2
-                        className="text-2xl font-extrabold leading-tight"
-                        style={{ color: "#1e3a5f" }}
-                      >
-                        {p.nom}
-                      </h2>
-                      <div className="mt-2">
-                        <NoteEtoiles note={p.note} size="md" />
+                  {/* Image + Titre + note + prix */}
+                  <div className="flex flex-col sm:flex-row gap-6 mb-6">
+                    {/* Image produit */}
+                    {p.image && (
+                      <div className="flex-shrink-0 w-full sm:w-48 h-48 bg-gray-50 rounded-2xl overflow-hidden border border-gray-100 flex items-center justify-center">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img
+                          src={p.image}
+                          alt={p.nom}
+                          className="w-full h-full object-contain p-3"
+                        />
                       </div>
-                    </div>
-                    <div className="flex-shrink-0 text-right">
-                      <p className="text-4xl font-extrabold text-gray-900">
-                        {p.prix} <span className="text-2xl">€</span>
-                      </p>
-                      <p className="text-xs text-gray-400 mt-1">Prix Amazon</p>
+                    )}
+                    {/* Titre + note + prix */}
+                    <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 flex-1">
+                      <div>
+                        {p.badge && (
+                          <span className="inline-block text-xs font-bold bg-[#1e3a5f] text-white px-2.5 py-1 rounded-full mb-2">
+                            {p.badge}
+                          </span>
+                        )}
+                        <h2
+                          className="text-2xl font-extrabold leading-tight"
+                          style={{ color: "#1e3a5f" }}
+                        >
+                          {p.nom}
+                        </h2>
+                        <div className="mt-2">
+                          <NoteEtoiles note={p.note} size="md" />
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0 sm:text-right">
+                        <p className="text-4xl font-extrabold text-gray-900">
+                          {p.prix} <span className="text-2xl">€</span>
+                        </p>
+                        <p className="text-xs text-gray-400 mt-1">Prix Amazon</p>
+                      </div>
                     </div>
                   </div>
 
