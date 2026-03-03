@@ -44,7 +44,7 @@ const top3 = [
     avantages: ["La plus légère des doubles (11 kg)", "Prix très accessible", "Dès la naissance pour les 2 places", "Bonne maniabilité tandem"],
     inconvenients: ["Panier de rangement réduit", "Poids max 13 kg par enfant"],
     pour: "Jumeaux ou enfants rapprochés, budget maîtrisé",
-    lien: "https://www.amazon.fr/s?k=Joie+Evalite+Duo",
+    lien: "https://www.amazon.fr/s?k=Joie+Evalite+Duo&tag=lecpn13-21",
   },
   {
     nom: "Cybex Gazelle S",
@@ -57,7 +57,7 @@ const top3 = [
     avantages: ["Modulable 1→2 enfants", "Siège réversible chaque position", "Grande capacité 2×22 kg", "Haut de gamme Cybex"],
     inconvenients: ["Prix élevé", "Accessoires vendus séparément", "15 kg, lourd à porter"],
     pour: "Parents voulant la meilleure polyvalence sans compromis",
-    lien: "https://www.amazon.fr/s?k=Cybex+Gazelle+S",
+    lien: "https://www.amazon.fr/s?k=Cybex+Gazelle+S&tag=lecpn13-21",
   },
   {
     nom: "UPPAbaby Vista V3",
@@ -70,7 +70,7 @@ const top3 = [
     avantages: ["Nacelle grande incluse", "Configuration duo native", "Qualité de fabrication irréprochable", "Compatible siège auto"],
     inconvenients: ["Prix très élevé (1 150 €)", "Lourd pour usage solo quotidien"],
     pour: "Familles qui veulent le meilleur sans compromis",
-    lien: "https://www.amazon.fr/s?k=UPPAbaby+Vista+V3",
+    lien: "https://www.amazon.fr/s?k=UPPAbaby+Vista+V3&tag=lecpn13-21",
   },
 ];
 
