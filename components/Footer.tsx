@@ -58,17 +58,12 @@ export default function Footer() {
 
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <Link href="/" className="flex items-center gap-3 mb-5 group">
-              <div
-                className="w-10 h-10 rounded-xl flex items-center justify-center shadow-md"
-                style={{ background: "linear-gradient(135deg, #2d5986 0%, #3a6ea5 100%)" }}
-              >
-                <span className="text-xl" aria-hidden="true">🍼</span>
-              </div>
-              <span className="font-extrabold text-lg text-white leading-tight">
-                Meilleure<span style={{ color: "#FF9900" }}>Poussette</span>
-                <span className="block text-xs font-medium text-white/40">Comparatif 2026</span>
-              </span>
+            <Link href="/" className="flex items-center mb-5 group">
+              <img
+                src="/logo.svg"
+                alt="MeilleurePoussette.fr"
+                style={{ height: "48px", width: "auto", filter: "brightness(0) invert(1)" }}
+              />
             </Link>
             <p className="text-sm leading-relaxed text-white/60 mb-4">
               Votre guide indépendant pour choisir la meilleure poussette.
