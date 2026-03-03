@@ -19,14 +19,13 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
 
           {/* ── Logo ── */}
-          <Link href="/" className="flex items-center flex-shrink-0">
-            <img
-              src="/logo.svg"
-              alt="MeilleurePoussette.fr — Le guide comparatif N°1 en France"
-              width={220}
-              height={55}
-              style={{ height: "52px", width: "auto" }}
-            />
+          <Link href="/" className="flex items-center gap-2 flex-shrink-0">
+            <div style={{ width: "6px", height: "48px", background: "#1e3a5f", borderRadius: "2px", flexShrink: 0 }} />
+            <div style={{ display: "flex", flexDirection: "column", lineHeight: 1.2 }}>
+              <span style={{ fontFamily: "Helvetica Neue, Arial, sans-serif", fontSize: "20px", fontWeight: 800, color: "#1e3a5f", letterSpacing: "-0.5px" }}>Meilleure<span style={{ fontWeight: 300 }}>Poussette</span></span>
+              <span style={{ fontFamily: "Arial, sans-serif", fontSize: "9px", color: "#8099b8", letterSpacing: "1.5px", textTransform: "uppercase" }}>Le guide comparatif N°1 en France</span>
+              <span style={{ fontSize: "10px", color: "#FFB800" }}>★★★★★ <span style={{ color: "#8099b8", fontSize: "9px" }}>+2 400 avis</span></span>
+            </div>
           </Link>
 
           {/* ── Navigation desktop ── */}

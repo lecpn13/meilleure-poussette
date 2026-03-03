@@ -59,7 +59,8 @@ export default function HomePage() {
       <section className="relative text-white overflow-hidden" style={{ background: "linear-gradient(135deg, #1e3a5f 0%, #2d5986 100%)" }}>
         <div className="absolute inset-0 opacity-5" style={{ backgroundImage: "radial-gradient(circle, white 1px, transparent 1px)", backgroundSize: "30px 30px" }} />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
-          <div className="max-w-3xl">
+          <div className="flex flex-col lg:flex-row items-center gap-10">
+          <div className="flex-1">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold mb-6" style={{ background: "rgba(255,153,0,0.2)", color: "#FF9900" }}>
               ⭐ Mis à jour Mars 2026 — 24 modèles analysés
             </div>
@@ -81,6 +82,16 @@ export default function HomePage() {
             <Link href="#comparatif" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-bold text-white transition-all" style={{ background: "linear-gradient(135deg, #FF9900, #e67e22)" }}>
               Voir le comparatif →
             </Link>
+          </div>
+
+          {/* Image hero droite */}
+          <div className="hidden lg:flex flex-shrink-0 w-80 h-80 rounded-3xl items-center justify-center p-6" style={{ background: "rgba(255,255,255,0.1)", backdropFilter: "blur(10px)", border: "1px solid rgba(255,255,255,0.2)" }}>
+            <img
+              src="/images/produits/stokke-yoyo3.jpg"
+              alt="Stokke YOYO3 - Meilleure poussette compacte 2026"
+              style={{ maxHeight: "100%", maxWidth: "100%", objectFit: "contain", filter: "drop-shadow(0 20px 40px rgba(0,0,0,0.3))" }}
+            />
+          </div>
           </div>
         </div>
       </section>
