@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 90" width="380" height="90">
+  <!-- Fond transparent -->
+  
+  <!-- Barre verticale gauche blanche -->
+  <rect x="0" y="0" width="6" height="90" rx="0" fill="rgba(255,255,255,0.6)"/>
+
+  <!-- Icône poussette blanche -->
+  <g transform="translate(22, 12)">
+    <path d="M4 16 Q4 8 12 8 L44 8 Q52 8 54 16 L58 34 L0 34 Z" fill="white"/>
+    <path d="M44 8 L50 0 L66 0" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="12" cy="46" r="8" fill="none" stroke="white" stroke-width="3.5"/>
+    <circle cx="12" cy="46" r="2.5" fill="white"/>
+    <circle cx="46" cy="46" r="8" fill="none" stroke="white" stroke-width="3.5"/>
+    <circle cx="46" cy="46" r="2.5" fill="white"/>
+    <line x1="12" y1="34" x2="12" y2="38" stroke="white" stroke-width="3"/>
+    <line x1="46" y1="34" x2="46" y2="38" stroke="white" stroke-width="3"/>
+  </g>
+
+  <!-- Texte principal blanc -->
+  <text x="110" y="38" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="white">Meilleure<tspan font-weight="300">Poussette</tspan></text>
+
+  <!-- Tagline blanche -->
+  <text x="110" y="60" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="rgba(255,255,255,0.5)" letter-spacing="1.5">LE GUIDE COMPARATIF N°1 EN FRANCE</text>
+  
+  <!-- Étoiles dorées -->
+  <text x="110" y="78" font-size="12" fill="#FFB800">★★★★★</text>
+  <text x="175" y="78" font-family="Arial" font-size="11" fill="rgba(255,255,255,0.4)">+2 400 avis analysés</text>
+</svg>

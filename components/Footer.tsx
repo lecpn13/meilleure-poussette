@@ -60,9 +60,9 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center mb-5 group">
               <img
-                src="/logo.svg"
+                src="/logo-white.svg"
                 alt="MeilleurePoussette.fr"
-                style={{ height: "48px", width: "auto", filter: "brightness(0) invert(1)" }}
+                style={{ height: "64px", width: "auto" }}
               />
             </Link>
             <p className="text-sm leading-relaxed text-white/60 mb-4">
