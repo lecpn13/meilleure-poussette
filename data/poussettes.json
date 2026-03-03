@@ -412,7 +412,7 @@
     ],
     "pour_qui": "Parents voulant le haut de gamme pour deux enfants avec nacelle dès la naissance",
     "lien_amazon": "https://www.amazon.fr/s?tag=lecpn13-21",
-    "image": "https://placehold.co/400x400/f3e8ff/5f1e9b?text=UPPAbaby+Vista+V3",
+    "image": "/images/produits/uppababy-vista-v3.jpg",
     "badge": "Premium"
   },
   {
@@ -438,7 +438,7 @@
     ],
     "pour_qui": "Parents qui veulent une double originale avec de la personnalité",
     "lien_amazon": "https://www.amazon.fr/s?tag=lecpn13-21",
-    "image": "https://placehold.co/400x400/f3e8ff/5f1e9b?text=Cosatto+Wow+2",
+    "image": "/images/produits/cosatto-wow-2.jpg",
     "badge": "Rapport qualité/prix"
   },
   {
@@ -464,7 +464,7 @@
     ],
     "pour_qui": "Famille avec deux enfants en bas âge cherchant une tandem modulable à bon prix",
     "lien_amazon": "https://www.amazon.fr/s?tag=lecpn13-21",
-    "image": "https://placehold.co/400x400/f3e8ff/5f1e9b?text=Joie+Finiti",
+    "image": "/images/produits/joie-finiti.jpg",
     "badge": "Rapport qualité/prix"
   },
   {
@@ -568,7 +568,7 @@
     ],
     "pour_qui": "Parents en ville et campagne cherchant un bel objet scandinave très confortable",
     "lien_amazon": "https://www.amazon.fr/s?tag=lecpn13-21",
-    "image": "https://placehold.co/400x400/fff3e0/7f3e00?text=Thule+Sleek",
+    "image": "/images/produits/thule-sleek.jpg",
     "badge": "Premium"
   },
   {
@@ -594,7 +594,7 @@
     ],
     "pour_qui": "Familles qui anticipent un deuxième enfant et veulent une seule poussette tout-terrain polyvalente",
     "lien_amazon": "https://www.amazon.fr/s?tag=lecpn13-21",
-    "image": "https://placehold.co/400x400/fff3e0/7f3e00?text=Bugaboo+Donkey+5",
+    "image": "/images/produits/bugaboo-donkey-5.jpg",
     "badge": "Premium"
   },
   {
@@ -620,7 +620,7 @@
     ],
     "pour_qui": "Budget serré pour promenades nature sans exigences premium",
     "lien_amazon": "https://www.amazon.fr/s?tag=lecpn13-21",
-    "image": "https://placehold.co/400x400/fff3e0/7f3e00?text=Baby+Trend+Expedition",
+    "image": "/images/produits/baby-trend-expedition.jpg",
     "badge": "Budget"
   }
 ]
