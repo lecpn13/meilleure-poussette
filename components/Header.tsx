@@ -19,19 +19,14 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
 
           {/* ── Logo ── */}
-          <Link href="/" className="flex items-center gap-3 flex-shrink-0">
-            <div
-              className="w-10 h-10 rounded-xl flex items-center justify-center shadow-md"
-              style={{ background: "linear-gradient(135deg, #1e3a5f 0%, #2d5986 100%)" }}
-            >
-              <span style={{ fontSize: "20px" }} aria-hidden="true">🍼</span>
-            </div>
-            <div className="leading-tight">
-              <span className="font-extrabold text-lg leading-none block" style={{ color: "#1e3a5f" }}>
-                Meilleure<span style={{ color: "#FF9900" }}>Poussette</span>
-              </span>
-              <span className="text-xs text-gray-400 leading-none font-medium">Comparatif 2026</span>
-            </div>
+          <Link href="/" className="flex items-center flex-shrink-0">
+            <img
+              src="/logo.svg"
+              alt="MeilleurePoussette.fr — Le guide comparatif N°1 en France"
+              width={220}
+              height={55}
+              style={{ height: "52px", width: "auto" }}
+            />
           </Link>
 
           {/* ── Navigation desktop ── */}
